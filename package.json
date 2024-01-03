@@ -6,7 +6,9 @@
   "repository": "git@github.com:jasiek-net/google-docs-to-markdown.git",
   "author": "Jan Horubała <jan.horubala@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
