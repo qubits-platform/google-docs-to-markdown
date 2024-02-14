@@ -120,7 +120,7 @@ class GoogleDocument {
     if (fontSize) {
       const em = (fontSize.magnitude / this.bodyFontSize).toFixed(2)
       if (em !== "1.00") {
-        styles.push(`font-size:${em}em`)
+        styles.push(`{font-size:${em}em}`)
       }
     }
 
@@ -143,8 +143,8 @@ class GoogleDocument {
     }
 
     if (styles.length > 0) {
-      text = `<span style='${styles.join(";")}'>${text}</span>`
-    }
+      text = `<span style="">${text}</span>`
+        }
 
     if (link) {
       return `${before}[${text}](${link.url})${after}`
