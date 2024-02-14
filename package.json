@@ -12,6 +12,6 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
-    "gatsby-source-google-docs": "^2.2.3"
+    "gatsby-source-google-docs": "https://github.com/qubits-platform/gatsby-source-google-docs"
   }
 }
